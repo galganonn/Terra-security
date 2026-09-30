@@ -22,7 +22,7 @@ export default function Home() {
                 Assets
               </h1>
               <div className="flex items-center gap-1">
-                <img src="/icons/status-dot-green.svg" alt="" className="w-[10px] h-[10px]" />
+                <img src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/icons/status-dot-green.svg`} alt="" className="w-[10px] h-[10px]" />
                 <span className="text-[12px] leading-4 text-secondary-text">
                   Testing live · crawled 14 min ago
                 </span>

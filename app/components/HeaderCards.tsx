@@ -107,7 +107,7 @@ export default function HeaderCards() {
                     <div className="-scale-y-100 flex-none rotate-180">
                       <div className="relative w-[76.567px] h-[76.567px]">
                         <div className="absolute" style={{ inset: "-3.46% -3.46% 19.61% -3.46%" }}>
-                          <img alt="" className="block max-w-none w-full h-full" src="/icons/ellipse-bg.svg" />
+                          <img alt="" className="block max-w-none w-full h-full" src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/icons/ellipse-bg.svg`} />
                         </div>
                       </div>
                     </div>
@@ -117,7 +117,7 @@ export default function HeaderCards() {
                     <div className="-scale-y-100 flex-none rotate-180">
                       <div className="relative w-[76.567px] h-[76.567px]">
                         <div className="absolute" style={{ inset: "-6.1% -6.1% 16.7% -6.1%" }}>
-                          <img alt="" className="block max-w-none w-full h-full" src="/icons/ellipse-progress.svg" />
+                          <img alt="" className="block max-w-none w-full h-full" src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/icons/ellipse-progress.svg`} />
                         </div>
                       </div>
                     </div>
