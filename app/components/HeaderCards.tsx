@@ -56,7 +56,7 @@ export default function HeaderCards() {
         {/* Stat Cards Row */}
         <div className="flex gap-4 h-[200px]">
           {/* Exposure Card */}
-          <div className="bg-white rounded-2xl p-4 w-[545px] shrink-0 flex flex-col">
+          <div className="bg-white rounded-2xl p-4 flex-[5] min-w-0 flex flex-col">
             <div className="flex flex-col flex-1 gap-8">
               <Badge icon="/icons/incident-manager.svg" label="Exposure" />
 
@@ -77,7 +77,7 @@ export default function HeaderCards() {
                     }}
                   />
                   <div
-                    className="rounded-r-lg w-[40%] opacity-30"
+                    className="rounded-r-lg flex-1 opacity-30"
                     style={{
                       backgroundImage:
                         "linear-gradient(-85deg, rgb(255,214,51) 18%, rgb(255,144,0) 101%)",
@@ -95,7 +95,7 @@ export default function HeaderCards() {
           </div>
 
           {/* Endpoints Tested Card */}
-          <div className="bg-white rounded-2xl p-4 w-[285px] shrink-0 flex flex-col gap-[22px]">
+          <div className="bg-white rounded-2xl p-4 flex-[3] min-w-0 flex flex-col gap-[22px]">
             <Badge icon="/icons/security.svg" label="Endpoints tested" />
 
             <div className="flex flex-col flex-1 justify-between">
@@ -153,7 +153,7 @@ export default function HeaderCards() {
           </div>
 
           {/* Since Last Monday Card */}
-          <div className="bg-white rounded-2xl p-4 flex-1 flex flex-col">
+          <div className="bg-white rounded-2xl p-4 flex-[4] min-w-0 flex flex-col">
             <div className="flex flex-col flex-1 justify-between">
               <Badge icon="/icons/last-updated.svg" label="Since last Monday" />
 
